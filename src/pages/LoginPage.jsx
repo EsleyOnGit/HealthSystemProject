@@ -49,17 +49,16 @@ export const LoginPage = () => {
                       </Components.LeftOverlayPanel>
 
                       <Components.RightOverlayPanel signinIn={signIn}>
-                        <Components.Title>Hello, Friend!</Components.Title>
+                        <Components.Title>Olá, seja bem vindo!</Components.Title>
                         <Components.Paragraph>
-                            Enter Your personal details and start journey with us
+                            Cadastre-se e junte-se a nós
                         </Components.Paragraph>
                             <Components.GhostButton onClick={() => toggle(false)}>
-                                Entrar
+                                cadastrar
                             </Components.GhostButton> 
                       </Components.RightOverlayPanel>
                   </Components.Overlay>
               </Components.OverlayContainer>
-
           </Components.Container>
   );
 };

@@ -1,0 +1,233 @@
+.dashboard {
+    min-height: 100vh;
+    background-color: #f3f0ff;
+  }
+
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 256px;
+    background-color: #f3f0ff;
+    padding: 24px;
+  }
+
+  .menu-header {
+    margin-bottom: 32px;
+  }
+
+  .menu-header h2 {
+    color: #6d28d9;
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+  }
+
+  .menu-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .menu-item {
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .menu-item:hover {
+    background-color: #ede9fe;
+  }
+
+  .menu-item.active {
+    background-color: #ddd6fe;
+  }
+
+  .menu-item span {
+    color: #4b5563;
+  }
+
+  .menu-item.active span {
+    color: #6d28d9;
+  }
+
+  .logout-button {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+  }
+
+  .btn-ghost {
+    color: #6d28d9;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .main-content {
+    margin-left: 256px;
+    padding: 24px;
+  }
+
+  .top-nav {
+    margin-bottom: 32px;
+  }
+
+  .top-nav ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-item {
+    color: #4b5563;
+    cursor: pointer;
+  }
+
+  .nav-item:hover {
+    color: #6d28d9;
+  }
+
+  .nav-item.active {
+    color: #6d28d9;
+  }
+
+  .card {
+    max-width: 36rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 1px 3px 2px rgba(0,0,0,0.5);
+  }
+
+  .card-content {
+    padding: 24px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .card-header h2 {
+    color: #6d28d9;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .appointment-date {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #6d28d9;
+    margin-bottom: 16px;
+  }
+
+  .status-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .status-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafb;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  .status-item span {
+    color: #4b5563;
+  }
+
+  .download-button {
+    color: #6d28d9;
+    border: 1px solid #6d28d9;
+    background: none;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .doctor-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .avatar img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+  }
+
+  .doctor-name {
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .rating-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .star-rating {
+    display: flex;
+  }
+
+  .star {
+    color: #d1d5db;
+  }
+
+  .star.filled {
+    color: #fbbf24;
+    fill: #fbbf24;
+  }
+
+  .star.half-filled {
+    color: #fbbf24;
+    fill: #fbbf24;
+    opacity: 0.5;
+  }
+
+  .rating-value {
+    margin-left: 8px;
+  }
+
+  .appointment-status {
+    color: #6b7280;
+    font-size: 0.875rem;
+  }
+
+  .appointment-card{
+    border: 1px solid blue;
+  }
+
+  .schedule-button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background-color: #6d28d9;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .schedule-button:hover {
+    background-color: #5b21b6;
+  }

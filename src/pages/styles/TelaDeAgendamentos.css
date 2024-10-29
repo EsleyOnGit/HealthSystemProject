@@ -1,0 +1,40 @@
+/* Agendamentos.css */
+.agendamentos-container {
+    padding: 20px;
+  }
+  
+  .agendamentos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .agenda-card {
+    background-color: #c8b4f8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .agendar-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6a51d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

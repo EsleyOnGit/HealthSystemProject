@@ -1,0 +1,49 @@
+/* Resultados.css */
+.resultados-container {
+    padding: 20px;
+  }
+  
+  .resultados-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resultados-container ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ded1f5;
+    border-radius: 5px;
+  }
+  
+  .download-btn {
+    background-color: #6a51d7;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .nota {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #555;
+  }
+
+  .agendamentos-container{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .agendamentos-container .agendar-btn{
+    justify-self: right;
+    border-radius: .9rem;
+    width: 7rem;
+  }

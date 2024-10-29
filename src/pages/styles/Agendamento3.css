@@ -1,0 +1,240 @@
+.scheduler-container {
+  max-width: 1200px;
+  padding: 24px;
+  background-color: #DFD9F1;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.scheduler-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding-top: 4rem;
+}
+
+@media (min-width: 768px) {
+  .scheduler-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.scheduler-column {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #DFD9F1;
+  border-radius: .9rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4338ca;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #4338ca;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  color: #9ca3af;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-group label {
+  color: #4338ca;
+  font-weight: 500;
+}
+
+.select-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  background-color: white;
+}
+
+.date-grid {
+  display: flex;
+  gap: 8px;
+}
+
+.date-button {
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: #4b5563;
+  transition: all 0.2s;
+}
+
+.date-button:hover{
+  background-color: #9ca3af;
+}
+
+.date-button.selected {
+  background-color: #4338ca;
+  color: white;
+}
+
+.date-button .month {
+  font-size: 0.875rem;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.time-button {
+  padding: 8px 16px;
+  border-radius: 12px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  color: #4b5563;
+  transition: all 0.2s;
+}
+
+.time-button:hover{
+  background-color: #9ca3af;
+}
+
+.time-button.selected {
+  background-color: #4338ca;
+  color: white;
+}
+
+.doctors-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) -1px -1.5px 0px 0px
+}
+
+.doctors-header h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.doctor-card {
+  background-color: #DFD9F1;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 0px 0px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.doctor-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.doctor-info {
+  flex: 1;
+}
+
+.doctor-info h3 {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.crm {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.rating {
+  color: #fbbf24;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  color: #0eb116;
+}
+
+.summary-card {
+  background-color: #4037A0;
+  color: white;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.summary-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plus-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.plus-icon svg{
+  color:#e5e7eb
+}
+
+.summary-doctor h4 {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.doctor-info-summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.doctor-details {
+  flex: 1;
+}
+
+.doctor-details h3 {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.confirm-button {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.confirm-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
